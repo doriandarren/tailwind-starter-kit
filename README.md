@@ -33,4 +33,26 @@ npm run build
 
 
 
+### Tailwind
 
+Guide: [Tailwind Install](https://tailwindcss.com/docs/guides/vite).
+
+
+```sh
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+File tailwind.config.js edit:
+
+...
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+...
+
+
+
+```
