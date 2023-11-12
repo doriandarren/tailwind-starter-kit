@@ -1,4 +1,4 @@
-# tailwind-starter-kit
+# Project tailwind-starter-kit
 
 This template should help get you started developing with Vue 3 in Vite.
 

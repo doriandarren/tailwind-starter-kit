@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/HomeView.vue')
     },
+    {
+      path: '/alerts',
+      name: 'alerts',
+      component: () => import('@/views/alerts/Alert.vue')
+    },
   ]
 })
 
